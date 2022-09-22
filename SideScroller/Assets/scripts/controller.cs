@@ -51,9 +51,10 @@ public class controller : MonoBehaviour
             Jump();    
         }
 
-        //animations
+        //animations////////////////////////////////////////////////////////////
         anim.SetBool("Run", moveX != 0);
         anim.SetBool("isGrounded", isGrounded);
+        //anim.SetBool("IsFalling", isFalling);
 
     }
 
@@ -71,6 +72,13 @@ public class controller : MonoBehaviour
         rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
         isGrounded = false;
     }
+
+    //private void IsFalling()
+    //{
+
+    //}
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

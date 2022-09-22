@@ -10,7 +10,9 @@ public class PlayerHealth : Health
     {
         base.HandleDamage(damageValue);
 
-        if (health <= 0)
+
+        //the death logic
+        if (currentHealth <= 0)
         {
             this.gameObject.transform.position = checkpoint.transform.position;
             currentHealth = maxHealth;
