@@ -4,5 +4,16 @@ using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
-    public bool 
+    public bool checkpointActive;
+    public SpriteRenderer spriteRenderer;
+    public Sprite activeSprite;
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            checkpointActive = true;
+            spriteRenderer.sprite = activeSprite;
+        }
+    }
 }

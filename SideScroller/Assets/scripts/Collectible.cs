@@ -5,21 +5,22 @@ using UnityEngine;
 public class Collectible : MonoBehaviour
 {
     public int collectibleValue;
-    public GameObject CollectedVFX;
+    public GameObject collectedFX;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //collecting bodies logic
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<ItemManager>().HandleCollectible(collectibleValues);
+            collision.gameObject.GetComponent<ItemManager>().HandleCollectible(collectibleValue);
+            StartCoroutine(Collected());
         }
     }
     
-    public IEnumerator collected()
+    public IEnumerator Collected()
     {
         this.gameObject.GetComponentInChildren<SpriteRenderer>().sprite = null;
-        Instantiate(collectedVFX, gameObject.transform.localPosition, Quaternion.identity;
+        Instantiate(collectedFX, gameObject.transform.localPosition, Quaternion.identity);
         yield return new WaitForSeconds(0.01f);
         Destroy(gameObject);
     }

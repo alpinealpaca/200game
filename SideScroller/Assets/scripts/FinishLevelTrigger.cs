@@ -4,14 +4,13 @@ using UnityEngine;
 
 public class FinishLevelTrigger : MonoBehaviour
 {
-    public GameObject finishscreen;
+    public GameObject finishScreen;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.compareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            finishscreen.SetActive(true);
+            finishScreen.SetActive(true);
         }
-
     }
 }
