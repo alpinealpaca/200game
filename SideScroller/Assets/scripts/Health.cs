@@ -37,7 +37,7 @@ public class Health : MonoBehaviour
 
     void UpdateHealth()
     {
-        for (int i = 0; i < hearts.Length; i++)  //for every item/heart in this array, we'll loop throuhg this code 4 times.
+        for (int i = 0; i < hearts.Length; i++)  //for every item/heart in this array, we'll loop through this code 4 times.
         {
             if (i < currentHealth)
             {
