@@ -8,7 +8,7 @@ public class ItemManager : MonoBehaviour
 {
     public int bodiesCount;
 
-    public TextMeshProGUI bodiesCountText;
+    public TextMeshProUGUI bodiesCountText;
     
     public void Update()
     {
@@ -19,6 +19,6 @@ public class ItemManager : MonoBehaviour
 
     public void HandleCollectible(int collectibleValue)
     {
-        bodies += collectibleValue;
+        bodiesCount += collectibleValue;
     }
 }
