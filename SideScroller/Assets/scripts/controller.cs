@@ -33,7 +33,7 @@ public class controller : MonoBehaviour
         { 
             moveX = Input.GetAxis("Horizontal"); //variable left or right
         }
-
+        
         //flips character direction
         if (moveX >= 0.1 && isGrounded == true) //stops direction change mid jump
         {

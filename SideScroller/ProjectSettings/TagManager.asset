@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - Breakable
   layers:
   - Default
   - TransparentFX
@@ -54,6 +55,9 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 1630014191
+    locked: 0
+  - name: propsfront
+    uniqueID: 2169827635
     locked: 0
   - name: vfx
     uniqueID: 4080810953
