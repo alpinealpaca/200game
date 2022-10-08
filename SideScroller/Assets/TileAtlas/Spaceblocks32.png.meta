@@ -1,0 +1,1356 @@
+fileFormatVersion: 2
+guid: 134059fb575aa8f41b74327af35958d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4117968330307841623
+    second: Spaceblocks32_0
+  - first:
+      213: 5714991534726128867
+    second: Spaceblocks32_1
+  - first:
+      213: 6182626339441097828
+    second: Spaceblocks32_2
+  - first:
+      213: 3064783360620155233
+    second: Spaceblocks32_3
+  - first:
+      213: 7226730272101240328
+    second: Spaceblocks32_4
+  - first:
+      213: 6398046540291317780
+    second: Spaceblocks32_5
+  - first:
+      213: 7805465914775468160
+    second: Spaceblocks32_6
+  - first:
+      213: -6372693328037210723
+    second: Spaceblocks32_7
+  - first:
+      213: -7095794022871662878
+    second: Spaceblocks32_8
+  - first:
+      213: 4637828425532147274
+    second: Spaceblocks32_9
+  - first:
+      213: 5853328870634531970
+    second: Spaceblocks32_10
+  - first:
+      213: 4378802058149453654
+    second: Spaceblocks32_11
+  - first:
+      213: -4955401194855744737
+    second: Spaceblocks32_12
+  - first:
+      213: 5347871869127051528
+    second: Spaceblocks32_13
+  - first:
+      213: 3651861333576035469
+    second: Spaceblocks32_14
+  - first:
+      213: 743630052026583317
+    second: Spaceblocks32_15
+  - first:
+      213: 3624768194158385687
+    second: Spaceblocks32_16
+  - first:
+      213: 5430521964789098571
+    second: Spaceblocks32_17
+  - first:
+      213: -3678070382047699576
+    second: Spaceblocks32_18
+  - first:
+      213: -5493135420326741749
+    second: Spaceblocks32_19
+  - first:
+      213: -1916730449507437684
+    second: Spaceblocks32_20
+  - first:
+      213: 1843567581926450909
+    second: Spaceblocks32_21
+  - first:
+      213: 2147413160599666976
+    second: Spaceblocks32_22
+  - first:
+      213: 7722322052026109957
+    second: Spaceblocks32_23
+  - first:
+      213: -7769333440773721385
+    second: Spaceblocks32_24
+  - first:
+      213: -1859429240001220142
+    second: Spaceblocks32_25
+  - first:
+      213: 3314232342737259646
+    second: Spaceblocks32_26
+  - first:
+      213: 8227792713628069794
+    second: Spaceblocks32_27
+  - first:
+      213: -6857557036625582841
+    second: Spaceblocks32_28
+  - first:
+      213: -994450879069817952
+    second: Spaceblocks32_29
+  - first:
+      213: 1142591824074856896
+    second: Spaceblocks32_30
+  - first:
+      213: 1219407752288177472
+    second: Spaceblocks32_31
+  - first:
+      213: -4927145424225907566
+    second: Spaceblocks32_32
+  - first:
+      213: -3602843492432007566
+    second: Spaceblocks32_33
+  - first:
+      213: -3347482696336250068
+    second: Spaceblocks32_34
+  - first:
+      213: 8085033175637426443
+    second: Spaceblocks32_35
+  - first:
+      213: -5300812968851857261
+    second: Spaceblocks32_36
+  - first:
+      213: 360886738241590404
+    second: Spaceblocks32_37
+  - first:
+      213: 3970546903844643519
+    second: Spaceblocks32_38
+  - first:
+      213: -7581537120735090824
+    second: Spaceblocks32_39
+  - first:
+      213: 7804260590721601670
+    second: Spaceblocks32_40
+  - first:
+      213: -3891982119518789360
+    second: Spaceblocks32_41
+  - first:
+      213: -3689753393958394057
+    second: Spaceblocks32_42
+  - first:
+      213: 5549468215081462883
+    second: Spaceblocks32_43
+  - first:
+      213: 6905512175270655898
+    second: Spaceblocks32_44
+  - first:
+      213: 7973245799380012078
+    second: Spaceblocks32_45
+  - first:
+      213: 1095673689271950049
+    second: Spaceblocks32_46
+  - first:
+      213: 2928492894087413638
+    second: Spaceblocks32_47
+  - first:
+      213: -1389727964834668909
+    second: Spaceblocks32_48
+  - first:
+      213: -7753861143926283977
+    second: Spaceblocks32_49
+  - first:
+      213: -8469340746131897118
+    second: Spaceblocks32_50
+  - first:
+      213: -7650739769395558248
+    second: Spaceblocks32_51
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spaceblocks32_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eae44e066f52930800000000000000
+      internalID: 4117968330307841623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_1
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e427b1858abf4f40800000000000000
+      internalID: 5714991534726128867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c3c5516e91dc550800000000000000
+      internalID: 6182626339441097828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_3
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161da438a3c488a20800000000000000
+      internalID: 3064783360620155233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e0824c4e08a4460800000000000000
+      internalID: 7226730272101240328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_5
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4102b7a1e6d6ac850800000000000000
+      internalID: 6398046540291317780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_6
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0887c94f4e5925c60800000000000000
+      internalID: 7805465914775468160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_7
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9517df9e25af87a0800000000000000
+      internalID: -6372693328037210723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_8
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eef46b6eeca68d90800000000000000
+      internalID: -7095794022871662878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_9
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a468d097160ec5040800000000000000
+      internalID: 4637828425532147274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ca5b778933b3150800000000000000
+      internalID: 5853328870634531970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_11
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 84
+        width: 24
+        height: 24
+      alignment: 9
+      pivot: {x: 0.47709656, y: 0.6717806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f5fb1a541a4cc30800000000000000
+      internalID: 4378802058149453654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_12
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 84
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb31d3ed0ea3bb0800000000000000
+      internalID: -4955401194855744737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8094f977125773a40800000000000000
+      internalID: 5347871869127051528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_14
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ca8c4d8840ea230800000000000000
+      internalID: 3651861333576035469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5198957a797e15a00800000000000000
+      internalID: 743630052026583317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 60
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ad1fdb773cd4230800000000000000
+      internalID: 3624768194158385687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 60
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48e53074f61d5b40800000000000000
+      internalID: 5430521964789098571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_18
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88d592b897ed4fcc0800000000000000
+      internalID: -3678070382047699576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_19
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09fe48607674c3b0800000000000000
+      internalID: -5493135420326741749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_20
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c833feabfc76665e0800000000000000
+      internalID: -1916730449507437684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_21
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6e628b2faa59910800000000000000
+      internalID: 1843567581926450909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021ca8f54e42dcd10800000000000000
+      internalID: 2147413160599666976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_23
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5009e20edf23b2b60800000000000000
+      internalID: 7722322052026109957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_24
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d27e193668cd2490800000000000000
+      internalID: -7769333440773721385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_25
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 57
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1b0c835faf136e0800000000000000
+      internalID: -1859429240001220142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c07f391c48efd20800000000000000
+      internalID: 3314232342737259646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_27
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 29
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af295d51edfe2270800000000000000
+      internalID: 8227792713628069794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 29
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705a3f4453015d0a0800000000000000
+      internalID: -6857557036625582841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_29
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3f77eb1300332f0800000000000000
+      internalID: -994450879069817952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 36
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c95f35d53d4bdf00800000000000000
+      internalID: 1142591824074856896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_31
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d8e77d3e43ce010800000000000000
+      internalID: 1219407752288177472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cc25087534f9bb0800000000000000
+      internalID: -4927145424225907566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_33
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e234caee0200ec0800000000000000
+      internalID: -3602843492432007566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_34
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b6c11393a5b81d0800000000000000
+      internalID: -3347482696336250068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_35
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b010e1f36dec33070800000000000000
+      internalID: 8085033175637426443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_36
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3902dc290babf66b0800000000000000
+      internalID: -5300812968851857261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_37
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4841a0d8390220500800000000000000
+      internalID: 360886738241590404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_38
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 30
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2efa74f573a1730800000000000000
+      internalID: 3970546903844643519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877a52b4828f8c690800000000000000
+      internalID: -7581537120735090824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_40
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6809a8498ad4e4c60800000000000000
+      internalID: 7804260590721601670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_41
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01129e502e6ecf9c0800000000000000
+      internalID: -3891982119518789360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737615c56dc5bccc0800000000000000
+      internalID: -3689753393958394057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 12
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c604470fba30d40800000000000000
+      internalID: 5549468215081462883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_44
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9774278cbe45df50800000000000000
+      internalID: 6905512175270655898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_45
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ccbea7fc8a6ae60800000000000000
+      internalID: 7973245799380012078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_46
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eadbce4a6d943f00800000000000000
+      internalID: 1095673689271950049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_47
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ff55775c814a820800000000000000
+      internalID: 2928492894087413638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_48
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e5a9177c1b6bce0800000000000000
+      internalID: -1389727964834668909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_49
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731e19e0f50c46490800000000000000
+      internalID: -7753861143926283977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_50
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e40111c67bd67a80800000000000000
+      internalID: -8469340746131897118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spaceblocks32_51
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 3
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 898493017bc13d590800000000000000
+      internalID: -7650739769395558248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

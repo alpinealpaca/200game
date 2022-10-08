@@ -41,14 +41,14 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: background
     uniqueID: 2785610421
     locked: 0
   - name: ground
     uniqueID: 2608410687
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: props
     uniqueID: 644802819

@@ -7,13 +7,16 @@ public class controller : MonoBehaviour
     //stores reference to rigidbody
     private Rigidbody2D rBody;
     private Animator anim;
+    private CapsuleCollider2D capsColl2D; //
 
     //movement speed
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jumpForce = 0f;
     private float moveX = 0f;
 
-    [SerializeField] private bool isGrounded;
+    public LayerMask groundLayer;
+
+    private bool isGrounded;
 
 
     // Start is called before the first frame update
@@ -22,10 +25,11 @@ public class controller : MonoBehaviour
         //store core refs
         rBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        capsColl2D = GetComponent<CapsuleCollider2D>(); //
 
     }
 
-    // Update is called once per frame
+    
     void Update() //-movements here
     {
         //movement input check
@@ -73,10 +77,18 @@ public class controller : MonoBehaviour
         isGrounded = false;
     }
 
-    //private void IsFalling()
-    //{
+    private bool IsGrounded()
+    {
+        RaycastHit2D raycastHit = Physics2D.BoxCast(capsColl2D.bounds.center, capsColl2D.bounds.size, 0, Vector2.down, 0.1f, groundLayer);
+        return raycastHit.collider != null;
+    }
 
-    //}
+    private bool IsFalling()
+    {
+        if (rBody.velocity.y <= -0.5f && !IsGrounded())
+        { return true; }
+        else { return false; }
+    }
 
 
 
