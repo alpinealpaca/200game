@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 5436967926103820949}
   - component: {fileID: 5436967926103820936}
   - component: {fileID: 7276426099529494098}
+  - component: {fileID: 7606207475283330402}
+  - component: {fileID: -2490223037036720661}
   m_Layer: 0
   m_Name: LaserBullet
   m_TagString: Untagged
@@ -113,7 +115,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5436967926103820948}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -138,3 +140,35 @@ MonoBehaviour:
   damage: 40
   rb: {fileID: 5436967926103820949}
   impactEffect: {fileID: 5411874831529913477, guid: af255f59d942d64429012d61d1e08865, type: 3}
+--- !u!58 &7606207475283330402
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5436967926103820948}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.6, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
+--- !u!58 &-2490223037036720661
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5436967926103820948}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: d0e0ec595ccf36041a22065c5713ad84, type: 2}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.6, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1

@@ -1210,7 +1210,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
-  bounceForce: 1
 --- !u!1001 &540637510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7453,6 +7452,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1978251932}
   - component: {fileID: 1978251931}
+  - component: {fileID: 1978251933}
   m_Layer: 0
   m_Name: 16
   m_TagString: Untagged
@@ -7525,6 +7525,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.924}
+--- !u!58 &1978251933
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978251930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.6, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1
 --- !u!1 &2002506732
 GameObject:
   m_ObjectHideFlags: 0

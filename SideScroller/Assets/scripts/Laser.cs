@@ -15,34 +15,35 @@ public class Laser : MonoBehaviour
     {
         rb.velocity = transform.right * speed;
     }
+
+    
     /////////////////////////////////////////////////////
-    private Vector3 oldVelocity;
+    //private Vector3 oldVelocity;
 
     //store the laser's velocity every frame -> use this data during collisions to reflect
-    void FixedUpdate () //fixed = after physics
-    {
-        oldVelocity = rigidbody.velocity;
-    }
+    // void FixedUpdate () //fixed = after physics
+    //{
+    //  oldVelocity = GetComponent<Rigidbody2D>().velocity;
+    //}
 
     // when a collision happens
-    void OnCollisionEnter(Collision collision)
-    {
-        // get the point of contact
-        ContactPoint contact = collision.contacts[0];
+    //void OnCollisionEnter(Collision collision)
+    //{
+    // get the point of contact
+    //  ContactPoint contact = collision.contacts[0];
 
-        // reflect our old velocity off the contact point's normal vector
-        Vector2 reflectedVelocity = Vector2.Reflect(oldVelocity, contact.normal);
+    // reflect our old velocity off the contact point's normal vector
+    //        Vector2 reflectedVelocity = Vector2.Reflect(oldVelocity, contact.normal);
 
-        // assign the reflected velocity back to the rigidbody
-        rigidbody.velocity = reflectedVelocity;
-        // rotate the object by the same ammount we changed its velocity
-        Quaternion rotation = Quaternion.FromToRotation(oldVelocity, reflectedVelocity);
-        transform.rotation = rotation * transform.rotation;
-    }
-
-
-
+    // assign the reflected velocity back to the rigidbody
+    //GetComponent<Rigidbody2D>().velocity = reflectedVelocity;
+    // rotate the object by the same ammount we changed its velocity
+    //Quaternion rotation = Quaternion.FromToRotation(oldVelocity, reflectedVelocity);
+    //transform.rotation = rotation * transform.rotation;
+    //}
     /////////////////////////////////////////////////////
+
+
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
         Enemy enemy = hitInfo.GetComponent<Enemy>();
