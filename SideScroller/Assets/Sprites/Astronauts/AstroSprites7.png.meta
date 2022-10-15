@@ -1,55 +1,64 @@
 fileFormatVersion: 2
-guid: 63a7447bc7007914bb8833db95d2f4ff
+guid: aa79d7cce41619d44b2f49739f4f08b2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 625645684907637857
-    second: astro-spritesheet -2_0
+      213: 5233032560714048662
+    second: AstroSprites7_0
   - first:
-      213: -3345624889744852973
-    second: astro-spritesheet -2_1
+      213: 7988932655724336767
+    second: AstroSprites7_1
   - first:
-      213: -5299443267884533548
-    second: astro-spritesheet -2_2
+      213: 5104531446379771009
+    second: AstroSprites7_2
   - first:
-      213: -5892062370273574758
-    second: astro-spritesheet -2_3
+      213: 4121337549503920533
+    second: AstroSprites7_3
   - first:
-      213: 888234981889208060
-    second: astro-spritesheet -2_4
+      213: 1099509783936503961
+    second: AstroSprites7_4
   - first:
-      213: 4302481100172030481
-    second: astro-spritesheet -2_5
+      213: 2624982588645657726
+    second: AstroSprites7_5
   - first:
-      213: 3314420237666718200
-    second: astro-spritesheet -2_6
+      213: 4135363622746417814
+    second: AstroSprites7_6
   - first:
-      213: -7891773257775252117
-    second: astro-spritesheet -2_7
+      213: 2586291797302535389
+    second: AstroSprites7_7
   - first:
-      213: 5272373928042982643
-    second: astro-spritesheet -2_8
+      213: -3934343255176938352
+    second: AstroSprites7_8
   - first:
-      213: 7268855000693452960
-    second: astro-spritesheet -2_9
+      213: -2430175625337285920
+    second: AstroSprites7_9
   - first:
-      213: -1099819533486774455
-    second: astro-spritesheet -2_10
+      213: 2783923447115777559
+    second: AstroSprites7_10
   - first:
-      213: -7644532967740710952
-    second: astro-spritesheet -2_11
+      213: 1669399828143690870
+    second: AstroSprites7_11
   - first:
-      213: -400966364909453216
-    second: astro-spritesheet -2_12
+      213: 2065328271273945190
+    second: AstroSprites7_12
   - first:
-      213: -3904493501073828804
-    second: astro-spritesheet -2_13
+      213: -3221211743156989122
+    second: AstroSprites7_13
   - first:
-      213: -6707521990264362184
-    second: astro-spritesheet -2_14
+      213: -1489810236708694069
+    second: AstroSprites7_14
   - first:
-      213: -4865888630813146916
-    second: astro-spritesheet -2_15
+      213: 801797782833657464
+    second: AstroSprites7_15
+  - first:
+      213: -4623352936263915268
+    second: AstroSprites7_16
+  - first:
+      213: -6338696613598400581
+    second: AstroSprites7_17
+  - first:
+      213: -3766330690387927376
+    second: AstroSprites7_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -139,13 +148,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: astro-spritesheet -2_0
+      name: AstroSprites7_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 660
-        width: 198
-        height: 198
+        y: 688
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16cfc248f6dbea800800000000000000
-      internalID: 625645684907637857
+      spriteID: 694e96f53677f9840800000000000000
+      internalID: 5233032560714048662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_1
+      name: AstroSprites7_1
       rect:
         serializedVersion: 2
-        x: 165
-        y: 665
-        width: 198
-        height: 198
+        x: 212
+        y: 688
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3187d0f73e3f191d0800000000000000
-      internalID: -3345624889744852973
+      spriteID: f7697f65ce36ede60800000000000000
+      internalID: 7988932655724336767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_2
+      name: AstroSprites7_2
       rect:
         serializedVersion: 2
-        x: 361
-        y: 667
-        width: 198
-        height: 198
+        x: 424
+        y: 688
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d8386eec689476b0800000000000000
-      internalID: -5299443267884533548
+      spriteID: 184f6463e40f6d640800000000000000
+      internalID: 5104531446379771009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_3
+      name: AstroSprites7_3
       rect:
         serializedVersion: 2
-        x: 554
-        y: 678
-        width: 198
-        height: 198
+        x: 636
+        y: 688
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,20 +225,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a90c561ed703b3ea0800000000000000
-      internalID: -5892062370273574758
+      spriteID: 599f8ad5aaee13930800000000000000
+      internalID: 4121337549503920533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_4
+      name: AstroSprites7_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 460
-        width: 198
-        height: 198
+        x: 848
+        y: 688
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -237,83 +246,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfee49c8205a35c00800000000000000
-      internalID: 888234981889208060
+      spriteID: 9901a92b25e324f00800000000000000
+      internalID: 1099509783936503961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_5
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 470
-        width: 198
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 112f59cd3cb75bb30800000000000000
-      internalID: 4302481100172030481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: astro-spritesheet -2_6
-      rect:
-        serializedVersion: 2
-        x: 344
-        y: 458
-        width: 198
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8f19d7645af2ffd20800000000000000
-      internalID: 3314420237666718200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: astro-spritesheet -2_7
-      rect:
-        serializedVersion: 2
-        x: 540
-        y: 511
-        width: 198
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6df062d80aca7290800000000000000
-      internalID: -7891773257775252117
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: astro-spritesheet -2_8
+      name: AstroSprites7_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 260
-        width: 198
-        height: 198
+        y: 476
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fc6800472c3b2940800000000000000
-      internalID: 5272373928042982643
+      spriteID: e7c4fc1b1cfcd6420800000000000000
+      internalID: 2624982588645657726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_9
+      name: AstroSprites7_6
       rect:
         serializedVersion: 2
-        x: 733
-        y: 692
-        width: 198
-        height: 198
+        x: 212
+        y: 476
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +288,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a0b7207c1920e460800000000000000
-      internalID: 7268855000693452960
+      spriteID: 69a6fd60e43c36930800000000000000
+      internalID: 4135363622746417814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_10
+      name: AstroSprites7_7
       rect:
         serializedVersion: 2
-        x: 311
-        y: 243
-        width: 198
-        height: 198
+        x: 424
+        y: 476
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +309,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9472c7d16f7acb0f0800000000000000
-      internalID: -1099819533486774455
+      spriteID: dd469b7dfaa54e320800000000000000
+      internalID: 2586291797302535389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_11
+      name: AstroSprites7_8
       rect:
         serializedVersion: 2
-        x: 497
-        y: 234
-        width: 198
-        height: 198
+        x: 636
+        y: 476
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,20 +330,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8df5d00b4c929e590800000000000000
-      internalID: -7644532967740710952
+      spriteID: 09c79ba87a76669c0800000000000000
+      internalID: -3934343255176938352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_12
+      name: AstroSprites7_9
       rect:
         serializedVersion: 2
         x: 0
-        y: 49
-        width: 198
-        height: 198
+        y: 264
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +351,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06041bc273b7f6af0800000000000000
-      internalID: -400966364909453216
+      spriteID: 0e255f5f428464ed0800000000000000
+      internalID: -2430175625337285920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_13
+      name: AstroSprites7_10
       rect:
         serializedVersion: 2
-        x: 185
-        y: 54
-        width: 198
-        height: 198
+        x: 212
+        y: 264
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +372,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c345ca009d370d9c0800000000000000
-      internalID: -3904493501073828804
+      spriteID: 716873310ab72a620800000000000000
+      internalID: 2783923447115777559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_14
+      name: AstroSprites7_11
       rect:
         serializedVersion: 2
-        x: 396
-        y: 110
-        width: 198
-        height: 198
+        x: 424
+        y: 264
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83beb2fa9481ae2a0800000000000000
-      internalID: -6707521990264362184
+      spriteID: 6745a908c46ea2710800000000000000
+      internalID: 1669399828143690870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: astro-spritesheet -2_15
+      name: AstroSprites7_12
       rect:
         serializedVersion: 2
-        x: 662
-        y: 174
-        width: 198
-        height: 198
+        x: 636
+        y: 264
+        width: 212
+        height: 212
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,8 +414,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd045c32214e87cb0800000000000000
-      internalID: -4865888630813146916
+      spriteID: 668ead1ce1589ac10800000000000000
+      internalID: 2065328271273945190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstroSprites7_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 264
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e339fce7cf4fb43d0800000000000000
+      internalID: -3221211743156989122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstroSprites7_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 52
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7dc3aab71235be0800000000000000
+      internalID: -1489810236708694069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstroSprites7_15
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 52
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876fe7bd5de802b00800000000000000
+      internalID: 801797782833657464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstroSprites7_16
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 52
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf8eab2000d86dfb0800000000000000
+      internalID: -4623352936263915268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstroSprites7_17
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 52
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfee77830d6808a0800000000000000
+      internalID: -6338696613598400581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AstroSprites7_18
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 52
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be96c4213e4bbbc0800000000000000
+      internalID: -3766330690387927376
       vertices: []
       indices: 
       edges: []
@@ -477,7 +549,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 38e5007e797dad749992678502a9b7a8
+    spriteID: caf7ae7ca595b93408d345cac7974e84
     internalID: 0
     vertices: []
     indices: 
