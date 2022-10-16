@@ -41,7 +41,7 @@ public class controller : MonoBehaviour
         //flips character direction
         if (moveX >= 0.1 && isGrounded == true) //stops direction change mid jump
         {
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(1, 1, 1); //(-1, 1, 1); for pig/swapped.
         }
         else if (moveX <= -0.1 && isGrounded == true)
         {
