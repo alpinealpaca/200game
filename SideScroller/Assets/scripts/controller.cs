@@ -36,14 +36,15 @@ public class controller : MonoBehaviour
         if (isGrounded == true) //Once you jump you jumped.
         { 
             moveX = Input.GetAxis("Horizontal"); //variable left or right
+            IsGrounded();
         }
         
         //flips character direction
-        if (moveX >= 0.1 && isGrounded == true) //stops direction change mid jump
+        if (moveX >= 0.1 && IsGrounded()) //stops direction change mid jump //isGrounded == true
         {
             transform.localScale = new Vector3(1, 1, 1); //(-1, 1, 1); for pig/swapped.
         }
-        else if (moveX <= -0.1 && isGrounded == true)
+        else if (moveX <= -0.1 && IsGrounded())
         {
             transform.localScale = Vector2.one;
         }
