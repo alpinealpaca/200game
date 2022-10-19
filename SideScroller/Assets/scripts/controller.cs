@@ -17,6 +17,8 @@ public class controller : MonoBehaviour
     public LayerMask groundLayer;
 
     private bool isGrounded;
+    private bool Fall;
+    
 
 
     // Start is called before the first frame update
@@ -32,6 +34,9 @@ public class controller : MonoBehaviour
     
     void Update() //-movements here
     {
+        IsFalling();
+
+
         //movement input check
         if (isGrounded == true) //Once you jump you jumped.
         { 
@@ -46,7 +51,7 @@ public class controller : MonoBehaviour
         }
         else if (moveX <= -0.1 && IsGrounded())
         {
-            transform.localScale = Vector2.one;
+            transform.localScale = new Vector3(-1, 1, 1);
         }
 
 
@@ -59,7 +64,8 @@ public class controller : MonoBehaviour
         //animations////////////////////////////////////////////////////////////
         anim.SetBool("Run", moveX != 0);
         anim.SetBool("isGrounded", isGrounded);
-        //anim.SetBool("IsFalling", isFalling);
+        anim.SetBool("isFalling", IsFalling());
+        
 
     }
 
@@ -76,6 +82,7 @@ public class controller : MonoBehaviour
     {
         rBody.velocity = new Vector2(rBody.velocity.x, jumpForce);
         isGrounded = false;
+        anim.SetTrigger("JumpTrigger"); //triggers jump animation
     }
 
     private bool IsGrounded()
