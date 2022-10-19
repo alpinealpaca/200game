@@ -252,7 +252,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 84
-        width: 24
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -315,7 +315,7 @@ TextureImporter:
         serializedVersion: 2
         x: 81
         y: 84
-        width: 24
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -355,7 +355,7 @@ TextureImporter:
       name: Spaceblocks32_5
       rect:
         serializedVersion: 2
-        x: 162
+        x: 135
         y: 84
         width: 24
         height: 24
@@ -376,7 +376,7 @@ TextureImporter:
       name: Spaceblocks32_6
       rect:
         serializedVersion: 2
-        x: 135
+        x: 162
         y: 84
         width: 24
         height: 24
@@ -397,7 +397,7 @@ TextureImporter:
       name: Spaceblocks32_7
       rect:
         serializedVersion: 2
-        x: 168
+        x: 189
         y: 84
         width: 24
         height: 24
@@ -418,7 +418,7 @@ TextureImporter:
       name: Spaceblocks32_8
       rect:
         serializedVersion: 2
-        x: 189
+        x: 216
         y: 84
         width: 24
         height: 24
@@ -439,7 +439,7 @@ TextureImporter:
       name: Spaceblocks32_9
       rect:
         serializedVersion: 2
-        x: 216
+        x: 243
         y: 84
         width: 24
         height: 24
@@ -460,7 +460,7 @@ TextureImporter:
       name: Spaceblocks32_10
       rect:
         serializedVersion: 2
-        x: 244
+        x: 270
         y: 84
         width: 24
         height: 24
@@ -481,12 +481,12 @@ TextureImporter:
       name: Spaceblocks32_11
       rect:
         serializedVersion: 2
-        x: 269
+        x: 297
         y: 84
-        width: 24
+        width: 25
         height: 24
-      alignment: 9
-      pivot: {x: 0.47709656, y: 0.6717806}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -502,9 +502,9 @@ TextureImporter:
       name: Spaceblocks32_12
       rect:
         serializedVersion: 2
-        x: 297
-        y: 84
-        width: 24
+        x: 0
+        y: 57
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -523,7 +523,7 @@ TextureImporter:
       name: Spaceblocks32_13
       rect:
         serializedVersion: 2
-        x: 0
+        x: 27
         y: 57
         width: 24
         height: 24
@@ -544,7 +544,7 @@ TextureImporter:
       name: Spaceblocks32_14
       rect:
         serializedVersion: 2
-        x: 27
+        x: 54
         y: 57
         width: 24
         height: 24
@@ -565,9 +565,9 @@ TextureImporter:
       name: Spaceblocks32_15
       rect:
         serializedVersion: 2
-        x: 54
+        x: 81
         y: 57
-        width: 24
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -586,8 +586,8 @@ TextureImporter:
       name: Spaceblocks32_16
       rect:
         serializedVersion: 2
-        x: 72
-        y: 60
+        x: 108
+        y: 57
         width: 24
         height: 24
       alignment: 0
@@ -607,8 +607,8 @@ TextureImporter:
       name: Spaceblocks32_17
       rect:
         serializedVersion: 2
-        x: 96
-        y: 60
+        x: 135
+        y: 57
         width: 24
         height: 24
       alignment: 0
@@ -628,7 +628,7 @@ TextureImporter:
       name: Spaceblocks32_18
       rect:
         serializedVersion: 2
-        x: 108
+        x: 162
         y: 57
         width: 24
         height: 24
@@ -649,9 +649,9 @@ TextureImporter:
       name: Spaceblocks32_19
       rect:
         serializedVersion: 2
-        x: 135
+        x: 189
         y: 57
-        width: 24
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -670,7 +670,7 @@ TextureImporter:
       name: Spaceblocks32_20
       rect:
         serializedVersion: 2
-        x: 162
+        x: 216
         y: 57
         width: 24
         height: 24
@@ -691,7 +691,7 @@ TextureImporter:
       name: Spaceblocks32_21
       rect:
         serializedVersion: 2
-        x: 189
+        x: 243
         y: 57
         width: 24
         height: 24
@@ -712,7 +712,7 @@ TextureImporter:
       name: Spaceblocks32_22
       rect:
         serializedVersion: 2
-        x: 216
+        x: 297
         y: 57
         width: 24
         height: 24
@@ -733,10 +733,10 @@ TextureImporter:
       name: Spaceblocks32_23
       rect:
         serializedVersion: 2
-        x: 244
-        y: 57
-        width: 24
-        height: 24
+        x: 0
+        y: 29
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
       name: Spaceblocks32_24
       rect:
         serializedVersion: 2
-        x: 270
-        y: 55
+        x: 27
+        y: 29
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,10 +775,10 @@ TextureImporter:
       name: Spaceblocks32_25
       rect:
         serializedVersion: 2
-        x: 297
-        y: 57
+        x: 54
+        y: 29
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,10 +796,10 @@ TextureImporter:
       name: Spaceblocks32_26
       rect:
         serializedVersion: 2
-        x: 0
+        x: 81
         y: 29
-        width: 24
-        height: 24
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,8 +817,8 @@ TextureImporter:
       name: Spaceblocks32_27
       rect:
         serializedVersion: 2
-        x: 27
-        y: 29
+        x: 108
+        y: 30
         width: 24
         height: 24
       alignment: 0
@@ -838,8 +838,8 @@ TextureImporter:
       name: Spaceblocks32_28
       rect:
         serializedVersion: 2
-        x: 54
-        y: 29
+        x: 135
+        y: 30
         width: 24
         height: 24
       alignment: 0
@@ -859,7 +859,7 @@ TextureImporter:
       name: Spaceblocks32_29
       rect:
         serializedVersion: 2
-        x: 81
+        x: 162
         y: 30
         width: 24
         height: 24
@@ -880,9 +880,9 @@ TextureImporter:
       name: Spaceblocks32_30
       rect:
         serializedVersion: 2
-        x: 96
-        y: 36
-        width: 24
+        x: 189
+        y: 30
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -901,7 +901,7 @@ TextureImporter:
       name: Spaceblocks32_31
       rect:
         serializedVersion: 2
-        x: 107
+        x: 216
         y: 30
         width: 24
         height: 24
@@ -922,8 +922,8 @@ TextureImporter:
       name: Spaceblocks32_32
       rect:
         serializedVersion: 2
-        x: 135
-        y: 31
+        x: 243
+        y: 30
         width: 24
         height: 24
       alignment: 0
@@ -943,7 +943,7 @@ TextureImporter:
       name: Spaceblocks32_33
       rect:
         serializedVersion: 2
-        x: 162
+        x: 270
         y: 30
         width: 24
         height: 24
@@ -964,9 +964,9 @@ TextureImporter:
       name: Spaceblocks32_34
       rect:
         serializedVersion: 2
-        x: 190
+        x: 297
         y: 30
-        width: 24
+        width: 25
         height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -985,10 +985,10 @@ TextureImporter:
       name: Spaceblocks32_35
       rect:
         serializedVersion: 2
-        x: 215
-        y: 30
-        width: 24
-        height: 24
+        x: 0
+        y: 2
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,10 +1006,10 @@ TextureImporter:
       name: Spaceblocks32_36
       rect:
         serializedVersion: 2
-        x: 243
-        y: 30
+        x: 27
+        y: 2
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,10 +1027,10 @@ TextureImporter:
       name: Spaceblocks32_37
       rect:
         serializedVersion: 2
-        x: 270
-        y: 30
+        x: 54
+        y: 2
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1048,10 +1048,10 @@ TextureImporter:
       name: Spaceblocks32_38
       rect:
         serializedVersion: 2
-        x: 297
-        y: 30
-        width: 24
-        height: 24
+        x: 81
+        y: 2
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1069,8 +1069,8 @@ TextureImporter:
       name: Spaceblocks32_39
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2
+        x: 108
+        y: 3
         width: 24
         height: 24
       alignment: 0
@@ -1090,10 +1090,10 @@ TextureImporter:
       name: Spaceblocks32_40
       rect:
         serializedVersion: 2
-        x: 28
+        x: 135
         y: 2
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1111,10 +1111,10 @@ TextureImporter:
       name: Spaceblocks32_41
       rect:
         serializedVersion: 2
-        x: 53
+        x: 162
         y: 2
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1132,8 +1132,8 @@ TextureImporter:
       name: Spaceblocks32_42
       rect:
         serializedVersion: 2
-        x: 80
-        y: 2
+        x: 189
+        y: 3
         width: 24
         height: 24
       alignment: 0
@@ -1153,10 +1153,10 @@ TextureImporter:
       name: Spaceblocks32_43
       rect:
         serializedVersion: 2
-        x: 96
-        y: 12
+        x: 216
+        y: 2
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1174,10 +1174,10 @@ TextureImporter:
       name: Spaceblocks32_44
       rect:
         serializedVersion: 2
-        x: 108
-        y: 3
+        x: 243
+        y: 2
         width: 24
-        height: 24
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1195,8 +1195,8 @@ TextureImporter:
       name: Spaceblocks32_45
       rect:
         serializedVersion: 2
-        x: 135
-        y: 2
+        x: 270
+        y: 3
         width: 24
         height: 24
       alignment: 0
@@ -1216,10 +1216,10 @@ TextureImporter:
       name: Spaceblocks32_46
       rect:
         serializedVersion: 2
-        x: 162
+        x: 297
         y: 2
-        width: 24
-        height: 24
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,111 +1229,6 @@ TextureImporter:
       bones: []
       spriteID: 1eadbce4a6d943f00800000000000000
       internalID: 1095673689271950049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spaceblocks32_47
-      rect:
-        serializedVersion: 2
-        x: 189
-        y: 2
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 68ff55775c814a820800000000000000
-      internalID: 2928492894087413638
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spaceblocks32_48
-      rect:
-        serializedVersion: 2
-        x: 215
-        y: 2
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39e5a9177c1b6bce0800000000000000
-      internalID: -1389727964834668909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spaceblocks32_49
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 3
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 731e19e0f50c46490800000000000000
-      internalID: -7753861143926283977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spaceblocks32_50
-      rect:
-        serializedVersion: 2
-        x: 271
-        y: 3
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e40111c67bd67a80800000000000000
-      internalID: -8469340746131897118
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spaceblocks32_51
-      rect:
-        serializedVersion: 2
-        x: 297
-        y: 3
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 898493017bc13d590800000000000000
-      internalID: -7650739769395558248
       vertices: []
       indices: 
       edges: []

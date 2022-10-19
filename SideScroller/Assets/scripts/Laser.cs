@@ -53,7 +53,7 @@ public class Laser : MonoBehaviour
             Destroy(gameObject);//
         }
         //impact effect
-        Instantiate(impactEffect, transform.position, transform.rotation) ;
-        //Destroy(gameObject);
+        GameObject instanceImpactEffect = Instantiate(impactEffect, transform.position, transform.rotation) ;
+        Destroy(instanceImpactEffect, 1);
     }
 }
