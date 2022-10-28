@@ -130,7 +130,8 @@ MonoBehaviour:
   emptyHeart: {fileID: 0}
   crackedBox: {fileID: 21300000, guid: 063687aec9c4dc44e80602ab5b30c11e, type: 3}
   brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
-  score: {fileID: 0}
+  value: 1
+  player: {fileID: 0}
 --- !u!50 &7746984609869731141
 Rigidbody2D:
   serializedVersion: 4

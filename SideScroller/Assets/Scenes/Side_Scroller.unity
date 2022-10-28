@@ -1361,6 +1361,7 @@ GameObject:
   - component: {fileID: 538685570}
   - component: {fileID: 538685571}
   - component: {fileID: 538685572}
+  - component: {fileID: 538685573}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1573,6 +1574,20 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 1024
+--- !u!114 &538685573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 538685562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e8420c429ecf94285fe2fa9f8cc27e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cleanCount: 0
+  cleanCountText: {fileID: 818102844}
 --- !u!1001 &540637510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8529,6 +8544,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5636310714069462518, guid: 9d5df317cc2427f41b0a10502617b58d, type: 3}
+      propertyPath: value
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9d5df317cc2427f41b0a10502617b58d, type: 3}
 --- !u!1001 &7324339243030101264
@@ -8607,6 +8626,14 @@ PrefabInstance:
       propertyPath: one
       value: 
       objectReference: {fileID: 7746984609869731146, guid: 27abd45c861cebe40930de2ba1e9176f, type: 3}
+    - target: {fileID: 7746984609869731142, guid: 27abd45c861cebe40930de2ba1e9176f, type: 3}
+      propertyPath: score
+      value: 
+      objectReference: {fileID: 1834119378}
+    - target: {fileID: 7746984609869731142, guid: 27abd45c861cebe40930de2ba1e9176f, type: 3}
+      propertyPath: value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7746984609869731143, guid: 27abd45c861cebe40930de2ba1e9176f, type: 3}
       propertyPath: m_RootOrder
       value: 14

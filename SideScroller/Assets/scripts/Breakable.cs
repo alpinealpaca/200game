@@ -6,7 +6,15 @@ public class Breakable : Health
 {
     [SerializeField] private Sprite crackedBox; //sprite to display objects breaking
     [SerializeField] private GameObject brokenFX; //vfx feedback when breaks
-    
+    public int value;
+    private GameObject player;
+
+    void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+    }
+
+
 
     public override void HandleDamage(int damageValue)
     {
@@ -16,20 +24,19 @@ public class Breakable : Health
 
         if (currentHealth <= 0)
         {
+            
+            player.gameObject.GetComponent<ItemManager>().HandleCollectible(value);
             Instantiate(brokenFX, gameObject.transform.localPosition, Quaternion.identity); //smoke poof
+
+
+            //score.AddScore();
             Destroy(gameObject);
 
 
-            GetComponent<Score>().AddScore();  // <----- THIS LINE HERE
-
-
-
-
         }
-        
 
 
-
+     
 
     }
 

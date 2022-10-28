@@ -41,7 +41,7 @@ public class Shovel : MonoBehaviour
         {
             Debug.Log("cleaned up " + cleanable.name);
             //enemy.GetComponent<Enemy>().TakeDamage(damage);
-            cleanable.GetComponent<Breakable>().HandleDamage(damage);
+            cleanable.gameObject.GetComponent<Breakable>().HandleDamage(damage);
 
             
         }

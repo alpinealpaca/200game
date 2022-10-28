@@ -6,19 +6,19 @@ using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
 {
-    public int bodiesCount;
+    public int cleanCount;
 
-    public TextMeshProUGUI bodiesCountText;
+    public TextMeshProUGUI cleanCountText;
     
     public void Update()
     {
-        bodiesCountText.text = "" + bodiesCount;
+        cleanCountText.text = "" + cleanCount;
     }
 
 
 
     public void HandleCollectible(int collectibleValue)
     {
-        bodiesCount += collectibleValue;
+        cleanCount += collectibleValue;
     }
 }

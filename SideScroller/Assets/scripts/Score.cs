@@ -8,7 +8,7 @@ public class Score : MonoBehaviour
 {
     public int Points;
     public TextMeshProUGUI ScoreText;
-    //public static Score scoremanager;
+    
     
 
 
