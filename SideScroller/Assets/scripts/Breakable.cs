@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Breakable : Health
+public class Breakable : Health 
 {
     [SerializeField] private Sprite crackedBox; //sprite to display objects breaking
     [SerializeField] private GameObject brokenFX; //vfx feedback when breaks
+    
 
     public override void HandleDamage(int damageValue)
     {
@@ -13,11 +14,23 @@ public class Breakable : Health
 
         this.gameObject.GetComponent<SpriteRenderer>().sprite = crackedBox;
 
-         if (currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             Instantiate(brokenFX, gameObject.transform.localPosition, Quaternion.identity); //smoke poof
-            Destroy(gameObject); 
+            Destroy(gameObject);
+
+
+            GetComponent<Score>().AddScore();  // <----- THIS LINE HERE
+
+
+
+
         }
+        
+
+
+
+
     }
 
 

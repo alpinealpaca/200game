@@ -7,7 +7,7 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-    public float totalLevelTime = 20f; //work day timer
+    public float totalLevelTime = 60f; //work day timer
     public float currentLevelTime;
 
     //make the timer visible

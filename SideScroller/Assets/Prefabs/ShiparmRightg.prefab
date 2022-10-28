@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 6056838710242486822}
   - component: {fileID: 3127356940200334180}
   - component: {fileID: 1861005411703849201}
-  m_Layer: 0
+  - component: {fileID: -7590359445047633661}
+  m_Layer: 10
   m_Name: ShiparmRightg
-  m_TagString: Untagged
+  m_TagString: Breakable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +101,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d0e0ec595ccf36041a22065c5713ad84, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -121,3 +122,22 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 0.36, y: 0.71}
   m_Direction: 0
+--- !u!114 &-7590359445047633661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6056838710242486821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2957c17084c8464bb8cb1931f006da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 0
+  maxHealth: 0
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  crackedBox: {fileID: 0}
+  brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}

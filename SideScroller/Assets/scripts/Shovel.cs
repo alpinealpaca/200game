@@ -2,12 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Shovel : MonoBehaviour
 {
     private Animator anim;
-
     public int damage = 1;
-    
+
+    public Transform digPoint;
+    public float digRange = 0.5f;
+    public LayerMask enemyLayers;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,22 +32,32 @@ public class Shovel : MonoBehaviour
     private void Cleanup()
     {
         anim.SetTrigger("Shovel");
+
+        //detect enemies in circle from the digPoint //stores colliders hit in array
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(digPoint.position, digRange, enemyLayers);
+
+        //Cleaning damage
+        foreach(Collider2D cleanable in hitEnemies)
+        {
+            Debug.Log("cleaned up " + cleanable.name);
+            //enemy.GetComponent<Enemy>().TakeDamage(damage);
+            cleanable.GetComponent<Breakable>().HandleDamage(damage);
+
+            
+        }
+
     }
 
-    //cannot do while jumping/falling
-    //detect breakable && damage it.
+    //draw the circle visible in the editor
+    void OnDrawGizmosSelected()
+    {
+        if (digPoint == null)
+        {
+            return;
+        }
+        Gizmos.DrawWireSphere(digPoint.position, digRange);
+    }
 
-
-    //void OnTriggerEnter2D(Collider2D hitInfo)
-    //{
-      //  Enemy spacejunk = hitInfo.GetComponent<Breakable>();
-        //if (spacejunk != null)
-        //{
-         //   spacejunk.TakeDamage(damage);
-            
-        //}
-        
-    //}
-
+    
 
 }

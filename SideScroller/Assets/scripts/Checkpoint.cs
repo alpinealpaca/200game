@@ -16,4 +16,8 @@ public class Checkpoint : MonoBehaviour
             spriteRenderer.sprite = activeSprite;
         }
     }
+
+
+   
+    
 }

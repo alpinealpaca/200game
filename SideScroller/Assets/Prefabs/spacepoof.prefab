@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6647863921037612892}
   - component: {fileID: 3830755709107131809}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: spacepoof
   m_TagString: Untagged
   m_Icon: {fileID: 0}

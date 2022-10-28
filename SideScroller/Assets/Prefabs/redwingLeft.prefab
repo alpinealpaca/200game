@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3291694534270380559}
   - component: {fileID: 6387212102103191900}
   - component: {fileID: 4326389303094734394}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: redwingLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
