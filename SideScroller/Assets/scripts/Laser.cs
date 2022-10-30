@@ -24,39 +24,48 @@ public class Laser : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D hitInfo)
     {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if (enemy != null)
-        {
-            enemy.TakeDamage(damage);
-
-            GameObject instanceImpactEffect2 = Instantiate(impactEffect2, transform.position, transform.rotation); //+= Vector3.left * 1
-            Destroy(instanceImpactEffect2, 1);
-
-            Destroy(gameObject);//
-        }
-
-        Health player = hitInfo.GetComponent<Health>();
-        if (player != null)
-        {
-            GameObject instanceImpactEffect = Instantiate(impactEffect, transform.position, transform.rotation); //+= Vector3.left * 1
-            Destroy(instanceImpactEffect, 1);
-
-            player.HandleDamage(damageValue);
-
-            Destroy(gameObject);
-        }
-
-
 
         if (hitInfo.CompareTag("Ground"))
         {
 
             //impact effect
-            GameObject instanceImpactEffect2 = Instantiate(impactEffect2, transform.position, transform.rotation); //+= Vector3.left * 1
+            GameObject instanceImpactEffect2 = Instantiate(impactEffect2, transform.position, transform.rotation); 
             Destroy(instanceImpactEffect2, 1);
 
             Destroy(gameObject);
         }
+
+        else
+        {
+            Enemy enemy = hitInfo.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+
+                GameObject instanceImpactEffect2 = Instantiate(impactEffect2, transform.position, transform.rotation);
+                Destroy(instanceImpactEffect2, 1);
+
+                Destroy(gameObject);//
+            }
+
+            Health player = hitInfo.GetComponent<Health>();
+            if (player != null)
+            {
+                GameObject instanceImpactEffect = Instantiate(impactEffect, transform.position, transform.rotation); //+= Vector3.left * 1
+                Destroy(instanceImpactEffect, 1);
+
+                player.HandleDamage(damageValue);
+
+                Destroy(gameObject);
+            }
+        }
+
+
+
+
+            
+
+        
     }  
 
 
