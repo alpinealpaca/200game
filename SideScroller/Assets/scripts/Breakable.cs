@@ -28,8 +28,6 @@ public class Breakable : Health
             player.gameObject.GetComponent<ItemManager>().HandleCollectible(value);
             Instantiate(brokenFX, gameObject.transform.localPosition, Quaternion.identity); //smoke poof
 
-
-            //score.AddScore();
             Destroy(gameObject);
 
 
