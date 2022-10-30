@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
             currentHealth = maxHealth;
         }
        
-       UpdateHealth(); //method
+       UpdateHearts(); //method
 
     }
 
@@ -35,7 +35,7 @@ public class Health : MonoBehaviour
         currentHealth -= damageValue;
     }
 
-    void UpdateHealth()
+    void UpdateHearts()
     {
         for (int i = 0; i < hearts.Length; i++)  //for every item/heart in this array, we'll loop through this code 4 times.
         {

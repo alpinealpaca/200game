@@ -5,7 +5,9 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - rb: {instanceID: 0}
-  - impactEffect: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
+  - impactEffect: {fileID: 5141580505292181561, guid: 3b8a599c8a8eade40bd2f543bb037a5f, type: 3}
+  - impactEffect2: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
+  - playerHealth: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

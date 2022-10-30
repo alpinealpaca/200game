@@ -11,6 +11,13 @@ public class DamageCollision : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             collision.gameObject.GetComponent<PlayerHealth>().HandleDamage(damageValue);
+
+            //Scene CurrentScene = SceneManager.GetActiveScene();
+            //SceneManager.LoadScene(CurrentScene.name);
+            //player.transform.position = respawnPoint.position;
+
+
         }
+
     }
 }

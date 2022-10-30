@@ -8,8 +8,8 @@ public class Laser : MonoBehaviour
     public int damage = 40;
     public Rigidbody2D rb;
     public GameObject impactEffect;
-
-    public PlayerHealth playerHealth;
+    public GameObject impactEffect2;
+    public int damageValue;
 
 
     // Start is called before the first frame update
@@ -28,20 +28,35 @@ public class Laser : MonoBehaviour
         if (enemy != null)
         {
             enemy.TakeDamage(damage);
+
+            GameObject instanceImpactEffect2 = Instantiate(impactEffect2, transform.position, transform.rotation); //+= Vector3.left * 1
+            Destroy(instanceImpactEffect2, 1);
+
             Destroy(gameObject);//
         }
-        //impact effect
-        GameObject instanceImpactEffect = Instantiate(impactEffect, transform.position, transform.rotation) ;
-        Destroy(instanceImpactEffect, 1);
 
-        if(hitInfo.CompareTag("Player"))
+        Health player = hitInfo.GetComponent<Health>();
+        if (player != null)
         {
-           // PlayerHealth player = GameObject.FindGameObjectWithTag("Player");
-            //player.TakeDamage(damage);
+            GameObject instanceImpactEffect = Instantiate(impactEffect, transform.position, transform.rotation); //+= Vector3.left * 1
+            Destroy(instanceImpactEffect, 1);
+
+            player.HandleDamage(damageValue);
 
             Destroy(gameObject);
         }
 
+
+
+        if (hitInfo.CompareTag("Ground"))
+        {
+
+            //impact effect
+            GameObject instanceImpactEffect2 = Instantiate(impactEffect2, transform.position, transform.rotation); //+= Vector3.left * 1
+            Destroy(instanceImpactEffect2, 1);
+
+            Destroy(gameObject);
+        }
     }  
 
 

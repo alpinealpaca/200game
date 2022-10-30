@@ -1930,6 +1930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Nozzle: {fileID: 149727013}
   LaserbulletPrefab: {fileID: 5436967926103820948, guid: de833c73d2201954cbd24d3088d10b35, type: 3}
+  shootTime: 2
 --- !u!1 &701710340
 GameObject:
   m_ObjectHideFlags: 0
@@ -8564,6 +8565,10 @@ PrefabInstance:
     - target: {fileID: 7324339242629963468, guid: 2ef30b8a367cc55428768fbed3ee9251, type: 3}
       propertyPath: m_Layer
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7324339242629963468, guid: 2ef30b8a367cc55428768fbed3ee9251, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7324339242629963471, guid: 2ef30b8a367cc55428768fbed3ee9251, type: 3}
       propertyPath: m_RootOrder

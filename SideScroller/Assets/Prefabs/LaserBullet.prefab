@@ -11,11 +11,8 @@ GameObject:
   - component: {fileID: 5436967926103820939}
   - component: {fileID: 5436967926103820938}
   - component: {fileID: 5436967926103820949}
-  - component: {fileID: 5436967926103820936}
   - component: {fileID: 7276426099529494098}
-  - component: {fileID: 7606207475283330402}
   - component: {fileID: -2490223037036720661}
-  - component: {fileID: -1934467543765365020}
   m_Layer: 7
   m_Name: LaserBullet
   m_TagString: Untagged
@@ -104,27 +101,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 6fc76753af4e22343b0f996d80d6a9e2, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!70 &5436967926103820936
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5436967926103820948}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.06640624, y: 0.006635473}
-  m_Size: {x: 1.3079046, y: 0.24988657}
-  m_Direction: 1
 --- !u!114 &7276426099529494098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,24 +121,10 @@ MonoBehaviour:
   speed: 5
   damage: 40
   rb: {fileID: 5436967926103820949}
-  impactEffect: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
+  impactEffect: {fileID: 5141580505292181561, guid: 3b8a599c8a8eade40bd2f543bb037a5f, type: 3}
+  impactEffect2: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
   playerHealth: {fileID: 0}
---- !u!58 &7606207475283330402
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5436967926103820948}
-  m_Enabled: 0
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.6, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.1
+  damageValue: 100
 --- !u!58 &-2490223037036720661
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -167,24 +134,10 @@ CircleCollider2D:
   m_GameObject: {fileID: 5436967926103820948}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: d0e0ec595ccf36041a22065c5713ad84, type: 2}
+  m_Material: {fileID: 6200000, guid: 6fc76753af4e22343b0f996d80d6a9e2, type: 2}
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.6, y: 0}
   serializedVersion: 2
   m_Radius: 0.1
---- !u!114 &-1934467543765365020
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5436967926103820948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edff64d5666c2bf41a663cf64cde919c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  respawnPoint: {fileID: 0}

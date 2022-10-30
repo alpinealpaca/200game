@@ -6,13 +6,24 @@ public class LaserFire : MonoBehaviour
 {
     public Transform Nozzle;
     public GameObject LaserbulletPrefab;
+    public float shootTime = 2f;
 
-    // Update is called once per frame
+
+    
     void Update()
     {
-        if (Input.GetButtonDown("Fire2"))
+        //if (Input.GetButtonDown("Fire2")) //testing
+        //{
+        //    Shoot();
+        //}
+    
+        //Fire every few seconds
+        shootTime -= Time.deltaTime;
+
+        if (shootTime< 0)
         {
             Shoot();
+            shootTime = 2f;
         }
     }
 
@@ -20,4 +31,8 @@ public class LaserFire : MonoBehaviour
     {
         Instantiate(LaserbulletPrefab, Nozzle.position, Nozzle.rotation);
     }
+
+    
 }
+
+

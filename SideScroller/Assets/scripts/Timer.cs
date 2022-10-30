@@ -31,7 +31,7 @@ public class Timer : MonoBehaviour
     void Update()
     {
         currentLevelTime -= Time.deltaTime; // -= 1 * Time.deltaTime;
-        countdownText.text = currentLevelTime.ToString("0");
+        countdownText.text = currentLevelTime.ToString("0"); //("Time: 0")
 
         if (currentLevelTime <= 0f)
         {
