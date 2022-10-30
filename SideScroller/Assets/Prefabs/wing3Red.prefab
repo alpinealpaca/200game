@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -5762814804893330312}
   m_Layer: 10
   m_Name: wing3Red
-  m_TagString: Breakable
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;//
 
 public class PlayerHealth : Health
 {
-    public GameObject checkpoint;
+    //public GameObject checkpoint;
 
     public GameOverScreen GameOverScreen;
     int cleanCount = 0;
@@ -21,7 +21,7 @@ public class PlayerHealth : Health
             //currentHealth = maxHealth;             
 
             GameOver();
-            Time.timeScale = 0f;
+            
 
             //Scene CurrentScene = SceneManager.GetActiveScene();
             //SceneManager.LoadScene(CurrentScene.name);

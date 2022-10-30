@@ -5,25 +5,24 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
 
-public class GameOverScreen : MonoBehaviour
+public class DayOverScreen : MonoBehaviour
 {
     //public TextMeshProUGUI cleanCountText;
 
-    public void Setup(int Score)
+    public void Setup(int Timegone)
     {
         gameObject.SetActive(true);
         //cleanCountText.text = Score.ToString() + " Points";
-        Time.timeScale = 0.1f;
+        Time.timeScale = 0f;
 
     }
 
 
 
 
-    public void RestartButton()
+    public void OfficeButton()
     {
-        SceneManager.LoadScene("Level_1");
-        Debug.Log("Reset");
+        SceneManager.LoadScene("Office");
         Time.timeScale = 1f;
     }
 

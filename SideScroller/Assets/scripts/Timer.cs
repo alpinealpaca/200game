@@ -12,14 +12,12 @@ public class Timer : MonoBehaviour
 
     //make the timer visible
     [SerializeField] TextMeshProUGUI countdownText;
-
-
-   // public int PlayerScore = 0; //cleaning points!
-
+    // public int PlayerScore = 0; //cleaning points!
     //public Text scoreUI;
+    public DayOverScreen DayOverScreen;
+    int timeCount = 0;
 
 
-    // Start is called before the first frame update
     void Start()
     {
         currentLevelTime = totalLevelTime;
@@ -35,33 +33,37 @@ public class Timer : MonoBehaviour
 
         if (currentLevelTime <= 0f)
         {
-            Debug.Log("End of Day"); //Finish. Go to Office.
-            //Time.timeScale = 0f;
-            currentLevelTime = 0; //stops negative numbers
+            //Debug.Log("End of Day"); 
+            currentLevelTime = 0; //stops negative numbers.
+
+            DayOver();
         }
         if (currentLevelTime <= 10f)
         {
             countdownText.color = Color.red;
         }
-        
-
-
         //scoreUI.text = PlayerScore.ToString();
-        
     }
+
+    public void DayOver()
+    {
+        DayOverScreen.Setup(timeCount);
+    }
+
+
 
     //public void increasePlayerScore(int value)
     //{
     //    PlayerScore += value;
     //}
 
-    public void Pause()
-    {
-        Time.timeScale = 0f;
-    }
+    //public void Pause()
+    //{
+    //    Time.timeScale = 0f;
+    //}
 
-   // public void GameOver()
-   // {
-       // SceneManager.LoadScene("GameOver"); //make this scene + script
-   // }
+    // public void GameOver()
+    // {
+    // SceneManager.LoadScene("GameOver"); //make this scene + script
+    // }
 }

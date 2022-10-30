@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7275619935079932325}
   m_Layer: 10
   m_Name: wing2Red
-  m_TagString: Breakable
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

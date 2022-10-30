@@ -28,7 +28,7 @@ public class controller : MonoBehaviour
         rBody = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         capsColl2D = GetComponent<CapsuleCollider2D>(); //
-
+        Time.timeScale = 1f;
     }
 
     
