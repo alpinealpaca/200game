@@ -10,19 +10,22 @@ public class Timer : MonoBehaviour
     public float totalLevelTime = 60f; //work day timer
     public float currentLevelTime;
 
+    //public int reqAmount = 1000;
+    public GameOverScreen GameOverScreen;
+    
+    
+
     //make the timer visible
     [SerializeField] TextMeshProUGUI countdownText;
     // public int PlayerScore = 0; //cleaning points!
     //public Text scoreUI;
     public DayOverScreen DayOverScreen;
     int timeCount = 0;
-
+    private int collectibleValue;
 
     void Start()
     {
         currentLevelTime = totalLevelTime;
-
-        
     }
 
     // Update is called once per frame
@@ -36,13 +39,26 @@ public class Timer : MonoBehaviour
             //Debug.Log("End of Day"); 
             currentLevelTime = 0; //stops negative numbers.
 
-            DayOver();
+            //gameObj.GetComponent<ItemManager>().HandleCollectible(collectibleValue);
+            //int reqAmount = cleanCount;
+
+            //if (reqAmount >= 1000)
+            //{
+                DayOver();
+            //}
+            //else
+            //{
+                //GameOver();
+              //  GameOverScreen.Setup();
+            //}
+            
         }
         if (currentLevelTime <= 10f)
         {
             countdownText.color = Color.red;
         }
         //scoreUI.text = PlayerScore.ToString();
+
     }
 
     public void DayOver()

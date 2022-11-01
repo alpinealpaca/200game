@@ -12,7 +12,8 @@ public class Shovel : MonoBehaviour
     public float digRange = 0.5f;
     public LayerMask enemyLayers;
 
-
+    [SerializeField] private float digRate = 0.7f;
+    private float nextDig;
 
     // Start is called before the first frame update
     void Start()
@@ -23,8 +24,9 @@ public class Shovel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1") && Time.time > nextDig)
         {
+            nextDig = Time.time + digRate;  //no more spamming
             Cleanup();
         }
     }

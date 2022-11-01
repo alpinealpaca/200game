@@ -8,12 +8,14 @@ using TMPro;
 public class GameOverScreen : MonoBehaviour
 {
     //public TextMeshProUGUI cleanCountText;
+    
 
-    public void Setup(int Score)
+    public void Setup()
     {
         gameObject.SetActive(true);
         //cleanCountText.text = Score.ToString() + " Points";
-        Time.timeScale = 0.1f;
+        
+        Time.timeScale = 0f;
 
     }
 
@@ -22,7 +24,7 @@ public class GameOverScreen : MonoBehaviour
 
     public void RestartButton()
     {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Level_2");
         Debug.Log("Reset");
         Time.timeScale = 1f;
     }

@@ -8,7 +8,7 @@ public class PlayerHealth : Health
     //public GameObject checkpoint;
 
     public GameOverScreen GameOverScreen;
-    int cleanCount = 0;
+    
 
     public override void HandleDamage(int damageValue)
     {
@@ -31,7 +31,7 @@ public class PlayerHealth : Health
 
     public void GameOver()
     {
-        GameOverScreen.Setup(cleanCount);
+        GameOverScreen.Setup();
     }
 
 
