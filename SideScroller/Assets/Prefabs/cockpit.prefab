@@ -129,4 +129,4 @@ MonoBehaviour:
   emptyHeart: {fileID: 0}
   crackedBox: {fileID: 21300000, guid: 6a045c822c6342648955ea73b8316be5, type: 3}
   brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
-  value: 1
+  value: 200

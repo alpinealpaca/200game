@@ -765,6 +765,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3008598350147155057, guid: 5270b30dc3299cb4f818adba36e43cee, type: 3}
+      propertyPath: value
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 3008598350147155058, guid: 5270b30dc3299cb4f818adba36e43cee, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -2478,6 +2482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: redwingLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 1150976764112771566, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8822636926900767627, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -2524,6 +2532,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
+--- !u!1 &379339606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1150976764112771566, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
+  m_PrefabInstance: {fileID: 379339605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &379339607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379339606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2957c17084c8464bb8cb1931f006da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
+  maxHealth: 1
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  crackedBox: {fileID: 0}
+  brokenFX: {fileID: 6099313359830721829, guid: 7d8d7c5d3dad6e64692d32f32ca31d26, type: 3}
+  value: 100
 --- !u!1001 &385635375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21072,6 +21105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dead_Alien (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2647759805703908284, guid: daf2ecbc4309fa64dbda103316f7e240, type: 3}
+      propertyPath: m_TagString
+      value: Breakable
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daf2ecbc4309fa64dbda103316f7e240, type: 3}
 --- !u!1001 &657528229
@@ -21084,6 +21121,10 @@ PrefabInstance:
     - target: {fileID: 6130131982126769025, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
       propertyPath: m_Name
       value: OfficeBox
+      objectReference: {fileID: 0}
+    - target: {fileID: 6130131982126769025, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6130131982126769031, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
       propertyPath: m_RootOrder
@@ -21143,6 +21184,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
+--- !u!1 &657528230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130131982126769025, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
+  m_PrefabInstance: {fileID: 657528229}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &657528231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 657528230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2957c17084c8464bb8cb1931f006da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 2
+  maxHealth: 2
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  crackedBox: {fileID: 0}
+  brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
+  value: 200
 --- !u!1001 &675475983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22602,6 +22668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: OfficeBox (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6130131982126769025, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6130131982126769031, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -22660,6 +22730,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
+--- !u!1 &976326532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6130131982126769025, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
+  m_PrefabInstance: {fileID: 976326531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &976326533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976326532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2957c17084c8464bb8cb1931f006da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 2
+  maxHealth: 2
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  crackedBox: {fileID: 0}
+  brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
+  value: 200
 --- !u!1 &976626135
 GameObject:
   m_ObjectHideFlags: 0
@@ -29839,6 +29934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: redwingLeft (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1150976764112771566, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8822636926900767627, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -29885,6 +29984,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
+--- !u!1 &1938457109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1150976764112771566, guid: 787a34cce074cfd4dbee80268e5832ab, type: 3}
+  m_PrefabInstance: {fileID: 1938457108}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1938457110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1938457109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2957c17084c8464bb8cb1931f006da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
+  maxHealth: 1
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  crackedBox: {fileID: 0}
+  brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
+  value: 100
 --- !u!1 &1941577313
 GameObject:
   m_ObjectHideFlags: 0
