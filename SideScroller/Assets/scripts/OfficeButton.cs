@@ -23,7 +23,7 @@ public class OfficeButton : Interactable
         //sets the button bool to true to allow it to be pressed
         if (doorOpened == false)
         {
-            // this will run the base funtion so that the interact prompt pops up and dissapears
+            // this will run the base funtion so that the interact prompt pops up and disappears
             base.OnTriggerEnter2D(collision);
             
         }
@@ -34,7 +34,7 @@ public class OfficeButton : Interactable
         if (doorOpened == true)
         {
             base.OnTriggerExit2D(collision);
-            BackAway();
+            BackAway(); //close menu
             interactable = false;
             this.gameObject.GetComponent<SpriteRenderer>().sprite = buttonSprite;
             SecondOne.GetComponent<SpriteRenderer>().sprite = buttonSprite2;
@@ -55,10 +55,7 @@ public class OfficeButton : Interactable
             SecondOne.GetComponent<SpriteRenderer>().sprite = pressedButtonSprite2;// changes the button to green
             NextLevel();
         }
-        //else
-        //{
-        //    this.gameObject.GetComponent<SpriteRenderer>().sprite = buttonSprite;
-        //}
+        
         
     }
 
