@@ -1116,7 +1116,7 @@ GameObject:
   - component: {fileID: 395114755}
   - component: {fileID: 395114754}
   m_Layer: 0
-  m_Name: spaceStation_008_2
+  m_Name: coffeebench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6354,8 +6354,8 @@ GameObject:
   - component: {fileID: 1028894897}
   - component: {fileID: 1028894900}
   - component: {fileID: 1028894899}
-  m_Layer: 0
-  m_Name: spaceBuilding_002 (1)
+  m_Layer: 9
+  m_Name: office boxes
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7978,8 +7978,8 @@ GameObject:
   - component: {fileID: 1379245210}
   - component: {fileID: 1379245213}
   - component: {fileID: 1379245212}
-  m_Layer: 0
-  m_Name: spaceBuilding_002 (2)
+  m_Layer: 9
+  m_Name: office boxes (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8044,7 +8044,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379245209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.413, y: -0.904, z: 0}
+  m_LocalPosition: {x: 7.413, y: -0.877, z: 0}
   m_LocalScale: {x: 0.32459205, y: 0.32459205, z: 0.32459205}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9058,7 +9058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lookAt: {fileID: 1571399993}
   boundX: 0.15
-  boundY: 0.15
+  boundY: 0.4
 --- !u!81 &1831022855
 AudioListener:
   m_ObjectHideFlags: 0
@@ -9397,7 +9397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6130131982126769031, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.265
+      value: 7.25
       objectReference: {fileID: 0}
     - target: {fileID: 6130131982126769031, guid: 08ca1b3b84cf52640ada43d0ad22cc8e, type: 3}
       propertyPath: m_LocalPosition.y
