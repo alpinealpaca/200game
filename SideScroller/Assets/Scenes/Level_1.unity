@@ -8955,9 +8955,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   totalLevelTime: 60
   currentLevelTime: 0
-  GameOverScreen: {fileID: 0}
   countdownText: {fileID: 2113943873}
   DayOverScreen: {fileID: 299502244}
+  GameOverScreen: {fileID: 1148167729}
+  scoreReq: 1500
+  currentScore: 0
+  player: {fileID: 1903281842}
 --- !u!50 &1593651920
 Rigidbody2D:
   serializedVersion: 4

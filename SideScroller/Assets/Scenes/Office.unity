@@ -1700,7 +1700,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " \n1300\n1200\n900\n400\n100\n"
+  m_text: " \n2300\n1700\n1200\n800\n100\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 74593bfedd8241e4289c2c8836626ffc, type: 2}
   m_sharedMaterial: {fileID: 5615225247262217728, guid: 74593bfedd8241e4289c2c8836626ffc, type: 2}

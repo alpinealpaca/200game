@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
             currentHealth = maxHealth;
         }
        
-       UpdateHearts(); //method
+       //UpdateHearts(); //method
 
     }
 
@@ -35,28 +35,28 @@ public class Health : MonoBehaviour
         currentHealth -= damageValue;
     }
 
-    void UpdateHearts()
-    {
-        for (int i = 0; i < hearts.Length; i++)  //for every item/heart in this array, we'll loop through this code 4 times.
-        {
-            if (i < currentHealth)
-            {
-                hearts[i].sprite = fullHeart;
-            }
-            else
-            {
-                hearts[i].sprite = emptyHeart;
-            }
+    //void UpdateHearts()
+    //{
+    //    for (int i = 0; i < hearts.Length; i++)  //for every item/heart in this array, we'll loop through this code 4 times.
+    //    {
+    //        if (i < currentHealth)
+    //        {
+    //            hearts[i].sprite = fullHeart;
+    //        }
+    //        else
+    //        {
+    //            hearts[i].sprite = emptyHeart;
+    //        }
 
-            if (i < maxHealth)
-            {
-                hearts[i].enabled = true;
-            }
-            else{
-                hearts[i].enabled = false;
-            }
-        }     
-    }
+    //        if (i < maxHealth)
+    //        {
+    //            hearts[i].enabled = true;
+    //        }
+    //        else{
+    //            hearts[i].enabled = false;
+    //        }
+    //    }     
+    //}
             
     
 
