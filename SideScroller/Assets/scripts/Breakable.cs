@@ -9,6 +9,7 @@ public class Breakable : Health
     public int value;
     private GameObject player;
 
+
     void Start()
     {
         player = GameObject.FindWithTag("Player");

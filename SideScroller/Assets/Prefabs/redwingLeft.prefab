@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3291694534270380559}
   - component: {fileID: 6387212102103191900}
   - component: {fileID: 4326389303094734394}
+  - component: {fileID: -3519207170760688798}
   m_Layer: 10
   m_Name: redwingLeft
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121,3 +122,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3519207170760688798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150976764112771566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2957c17084c8464bb8cb1931f006da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 1
+  maxHealth: 1
+  hearts: []
+  fullHeart: {fileID: 0}
+  emptyHeart: {fileID: 0}
+  crackedBox: {fileID: 0}
+  brokenFX: {fileID: 0}
+  value: 100
