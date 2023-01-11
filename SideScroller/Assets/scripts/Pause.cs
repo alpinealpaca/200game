@@ -10,6 +10,8 @@ public class Pause : MonoBehaviour
     public GameObject PauseScreen;
     private bool Paused = false;
 
+    public bool ScreenSelect = false; //From levelselectscreen script
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +21,7 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("escape"))
+        if (Input.GetKeyDown("escape") && ScreenSelect == false)
         {
             if (Paused == false)
             {

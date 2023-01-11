@@ -7,6 +7,10 @@ using TMPro;
 
 public class NextLevelScreen : MonoBehaviour
 {
+    
+
+    public LevelSelectScreen LevelSelectScreen;
+
     public void Setup()
     {
         gameObject.SetActive(true);
@@ -16,13 +20,14 @@ public class NextLevelScreen : MonoBehaviour
     public void Setdown()
     {
         gameObject.SetActive(false);
-
+        LevelSelectScreen.Setdown();
     }
 
     public void NextButton()
     {
-        SceneManager.LoadScene("Level_2");
-
+        //SceneManager.LoadScene("Level_2"); //Now leads into LevelSelectScreen.cs instead
+        LevelSelectScreen.Setup();
+        
     }
 
 
@@ -31,4 +36,5 @@ public class NextLevelScreen : MonoBehaviour
         SceneManager.LoadScene("TitleScreen");
         
     }
+
 }

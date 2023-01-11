@@ -140,5 +140,5 @@ MonoBehaviour:
   fullHeart: {fileID: 0}
   emptyHeart: {fileID: 0}
   crackedBox: {fileID: 0}
-  brokenFX: {fileID: 0}
+  brokenFX: {fileID: 5141580505292181561, guid: de35b5ccda8a09f499c3e626b214ebc6, type: 3}
   value: 100

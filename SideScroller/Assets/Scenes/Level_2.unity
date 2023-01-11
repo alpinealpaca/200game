@@ -22778,7 +22778,7 @@ MonoBehaviour:
   countdownText: {fileID: 1603828789}
   DayOverScreen: {fileID: 1416563941}
   GameOverScreen: {fileID: 1861716065}
-  scoreReq: 1500
+  scoreReq: 2500
   currentScore: 0
   player: {fileID: 773085704}
 --- !u!50 &864926049

@@ -7,7 +7,13 @@ public class LaserFire : MonoBehaviour
     public Transform Nozzle;
     public GameObject LaserbulletPrefab;
     public float shootTime = 2f;
+    private float shootTiming = 4f; //just there to allow changes to the timing.
 
+
+    void Start()
+    {
+        shootTiming = shootTime;
+    }
 
     
     void Update()
@@ -23,7 +29,7 @@ public class LaserFire : MonoBehaviour
         if (shootTime< 0)
         {
             Shoot();
-            shootTime = 2f;
+            shootTime = shootTiming;
         }
     }
 
