@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class CoffeeMaker : Interactable
 {
 
-    /*[SerializeField] private Sprite TheCoffeeMug;
+    /*//[SerializeField] private Sprite TheCoffeeMug;
+
+    [SerializeField] private GameObject CoffeeObject;
+    [SerializeField] private Sprite CoffeeShow;
+    [SerializeField] private Sprite CoffeeElse;
 
     private bool Drinking = false;
 
@@ -35,7 +40,7 @@ public class CoffeeMaker : Interactable
             interactable = false;
             CoffeeNearby = false;
 
-            CoffeeMug.Setup();
+            CoffeeMug.Setup(); //<--
         }
     }
 
