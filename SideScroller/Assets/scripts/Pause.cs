@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using TMPro;
+using TouchControlsKit;
 
 public class Pause : MonoBehaviour
 {
@@ -21,7 +22,8 @@ public class Pause : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("escape") && ScreenSelect == false)
+        //if (Input.GetKeyDown("escape") && ScreenSelect == false)
+        if (TCKInput.GetAction("pauseBtn", EActionEvent.Down) && ScreenSelect == false)
         {
             if (Paused == false)
             {

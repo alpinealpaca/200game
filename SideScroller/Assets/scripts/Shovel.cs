@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TouchControlsKit; //\\//\\
 
 
 public class Shovel : MonoBehaviour
@@ -24,7 +25,8 @@ public class Shovel : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Fire1") && Time.time > nextDig)
+        //if (Input.GetButtonDown("Fire1") && Time.time > nextDig)
+        if (TCKInput.GetAction("fireBtn", EActionEvent.Down) && Time.time > nextDig)
         {
             nextDig = Time.time + digRate;  //no more spamming
             Cleanup();

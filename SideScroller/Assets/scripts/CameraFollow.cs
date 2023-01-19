@@ -8,6 +8,11 @@ public class CameraFollow : MonoBehaviour
     [SerializeField] private float boundX = 0.15f;
     [SerializeField] private float boundY = 0.05f;
 
+    /*void Start()
+    {
+        Screen.SetResolution((int)Screen.width, (int)Screen.height, true);
+    }*/
+
     private void LateUpdate()
     {
         Vector3 delta = Vector3.zero;

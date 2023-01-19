@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TouchControlsKit;
 
 public class OfficeButton : Interactable
 {
@@ -12,6 +13,8 @@ public class OfficeButton : Interactable
     [SerializeField] private Sprite buttonSprite2; 
 
     public NextLevelScreen NextLevelScreen;
+
+    //public LevelSelectScreen LevelSelectScreen;//\\
 
     //safety checks
     private bool interactable = false;
@@ -47,7 +50,8 @@ public class OfficeButton : Interactable
     private void Update()
     {
         // checks to see if the player presses E while in front of the button
-        if (Input.GetKeyDown(KeyCode.E) && interactable == true)
+        //if (Input.GetKeyDown(KeyCode.E) && interactable == true)
+        if (TCKInput.GetAction("fireBtn", EActionEvent.Down) && interactable == true)
         {
             doorOpened = true; // press it, prompt turns off
 
@@ -62,7 +66,7 @@ public class OfficeButton : Interactable
     public void NextLevel()
     {
         NextLevelScreen.Setup();
-        
+        //LevelSelectScreen.Setup(); //\\
     }
 
     public void BackAway()
